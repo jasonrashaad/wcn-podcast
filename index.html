@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Looping YouTube Video</title>
+  <title>buttercreambuttercream</title>
   <style>
     html, body {
       margin: 0;
@@ -10,21 +10,20 @@
       background-color: black;
       overflow: hidden;
     }
-    iframe {
+    video {
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
-  <iframe
-    src="https://www.youtube.com/embed/YFTbj6DJbGQ?playlist=YFTbj6DJbGQ&autoplay=1&loop=1&controls=0&mute=1&modestbranding=1&rel=0&showinfo=0"
-    allow="autoplay; fullscreen"
-    allowfullscreen>
-  </iframe>
+  <video autoplay muted loop playsinline>
+    <source src="buttercreambuttercream.mkv" type="video/x-matroska">
+    Your browser does not support the video tag.
+  </video>
 </body>
 </html>
